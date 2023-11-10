@@ -81,9 +81,9 @@ body {
 }
 .about-me__introduction {
 	font-family: 'Spectral';
-	font-weight: 800;
+	font-weight: 500;
 	font-style: italic;
-	width: 60%;
+	width: 80%;
 }
 #about-me p {
 	width: 80%;
