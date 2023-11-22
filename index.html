@@ -32,33 +32,27 @@
 	<script  src="./assets/maugallery.js"></script>
 	<script  src="./assets/scripts.js"  ></script>
 
-	<!-- Micro-données schema.org -->
-	<script type="application/ld+json">
-		{
-		"@context": "http://schema.org",
-		"@type": "LocalBusiness",
-		"name": "Nina Carducci",
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressCountry": "France"
-		},
-		"telephone": "05 56 67 78 89",
-		"openingHours": "Mo-Fr 10:00-19:00",
-		"priceRange": "Retouches - 50€/photo, Shooting - 350€/demi journée, Album A4 - 400€",
-		"url": "http://ninacarducci.com/",
-		"image": "https://nina-carducci.github.io/assets/images/nina.png",
-		"sameAs": [
-			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
-		],
-		"jobTitle": "Photographe"
-		}
-	</script>
-	
+	  
 </head>
 <body>
+	<!-- Micro données schema.org -->
+	<div itemscope itemtype="http://schema.org/LocalBusiness">
+		<span itemprop="name">Nina Carducci</span>
+		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		  <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+		  <span itemprop="addressLocality">Bordeaux</span>,
+		  <span itemprop="postalCode">33200</span>
+		  <span itemprop="addressCountry">France</span>
+		</div>
+		<span itemprop="telephone">05 56 67 78 89</span>
+		<meta itemprop="openingHours" content="Mo-Fr 10:00-19:00">
+		<span itemprop="priceRange">Retouches - 50€/photo, Shooting - 350€/demi journée, Album A4 - 400€</span>
+		<a itemprop="url" href="http://ninacarducci.com/">Site Web</a>
+		<img itemprop="image" src="https://nina-carducci.github.io/assets/images/nina.png" alt="Image de Nina Carducci">
+		<a itemprop="sameAs" href="https://www.instagram.com/ninacarducci.photo/?hl=fr">Instagram</a>
+		<span itemprop="jobTitle">Photographe</span>
+	  </div>
+
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
